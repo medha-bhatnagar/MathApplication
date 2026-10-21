@@ -37,3 +37,9 @@ npm run format:check # Check formatting
 npm run build       # Type-check and create a production build in dist/
 npm run preview     # Preview the production build locally (run build first)
 ```
+
+## Deploy to Netlify
+
+The repository includes a `netlify.toml` build configuration and a `public/_redirects` rule so direct visits and page refreshes work on React Router routes.
+
+To publish through Netlify, sign in to Netlify, choose **Add new site → Import an existing project**, connect the GitHub repository, and select the `main` branch. Netlify reads the build command (`npm run build`) and publish directory (`dist`) from `netlify.toml`. Each successful deploy provides a public site URL.

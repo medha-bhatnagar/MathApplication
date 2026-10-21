@@ -870,11 +870,11 @@ Initial routes:
 - [x] Resolve TypeScript errors.
 - [x] Create the production build.
 - [x] Test the production build locally.
-- [ ] Configure deployment routing for React Router.
+- [x] Configure deployment routing for React Router.
 
 ### 89. Deploy the Application
 
-- [ ] Select a hosting service.
+- [x] Select a hosting service (Netlify).
 - [ ] Deploy the production build.
 - [ ] Verify every route.
 - [ ] Verify local-storage persistence.
