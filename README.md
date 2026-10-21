@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Math Practice
 
 A child-friendly math practice app built with React, TypeScript, and Vite. It supports configurable arithmetic practice, session summaries, local statistics, settings, and personalized mistake review.
@@ -19,3 +20,6 @@ npm run format:check
 npm test
 npm run build
 ```
+=======
+# MathApplication
+>>>>>>> c397ce8c109221d8b63e3be8fc9250c80654f957
